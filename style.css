@@ -114,6 +114,22 @@ h3 { font-size: 1.5rem; line-height:1.5; }
 p {
   margin-top: 0; }
 
+a {
+    color: #000 !important;
+    text-decoration: underline !important;
+    transition: color var(--p-transition-duration, .24s) ease !important;
+    outline: transparent solid 1px !important;
+    outline-offset: 1px !important;
+}
+a:hover {
+  color: #d5001c !important;
+}
+a:focus:not(:focus-visible) {
+  outline-color: transparent !important;
+}
+a:focus {
+  outline-color: currentColor !important;
+}
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
