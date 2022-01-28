@@ -52,23 +52,16 @@
         as="image" type="image/svg+xml" crossorigin>
   </head>
 <body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <div class="container">
     <div class="row">
-      <div class="logo">
-        Hi <img src="./logo.png" height="30px">- wir sind Marcel & Daniel
-      </div>
-    </div>
-
-    <div class="row m-top"
-    data-aos="fade-up"
-data-aos-offset="0"
-data-aos-delay="50"
-data-aos-duration="300"
-data-aos-easing="ease-in-out"
-data-aos-anchor-placement="top-bottom">
       <div class="nine columns">
-        <h1>User Centricity ist Teamwork.<br> Und genauso ist es Leadership.</h1>
+        <div class="logo">Hi <img src="./logo.png" height="30px">- wir sind Marcel & Daniel </div>
+        <h1>User Centricity ist Teamwork.<br> Und Leadership ebenso.</h1>
         <h3>Deshalb wollen wir uns gemeinsam auf die Stelle Leiter User Centricity im Job Sharing Modell bewerben.</h3>
       </div>
     </div>
@@ -76,7 +69,6 @@ data-aos-anchor-placement="top-bottom">
     <div
 data-aos="fade-up"
 data-aos-offset="0"
-data-aos-delay="2400"
 data-aos-duration="300"
 data-aos-easing="ease-in-out"
 data-aos-anchor-placement="top-bottom">
@@ -91,7 +83,7 @@ data-aos-anchor-placement="top-bottom">
     <div class="row"
     >
       <div class="nine columns">
-        <h3>Wenn eins und ein mehr ist, als die Summe der Einzelteile. Wir sind keine Genies - aber wir duchdenken alle Dinge zweimal und fordern uns immer gegenseitig heraus.</h3>
+        <h3>"When one plus one is greater than the sum of its parts. We are no geniuses - only two guys who think twice things through and challenge each other."</h3>
       </div>
     </div>
 
@@ -151,9 +143,12 @@ data-aos-anchor-placement="top-bottom">
         <p>Mit der “UX Academy” haben wir ein unternehmensweites Weiterbildungsprogramm ins Leben gerufen, um interne Mitarbeiter und externe Partner aus verschiedensten Bereichen und Unternehmen
          für UX zu begeistern und die Anwendung in der täglichen Arbeit zu unterrichten.
       </p>
-      <p>Unser Leadership zeichnet sich durch hohe Empathie gegenüber den Mitarbeitern im Team, den besonderen fachlichen Kenntnissen im Bereich User Experience und Entwicklung
-        sowie der Fähigkeit aus, alle auf eine gemeinsame Vision und Ziel einzuschwören.
-      </p>
+      <h2>Unsere Leadership Prinzipien</h2>
+      <p>Unser Leadership zeichnet sich durch hohe Empathie gegenüber den Mitarbeitern im Team, den besonderen fachlichen Kenntnissen im Bereich User Experience
+         und Entwicklung sowie der Fähigkeit aus, alle auf eine gemeinsame Vision und Ziel einzuschwören.
+        </p>
+        <p>Durch unser Pairing Model haben wir die Erfahrung gemacht, dass die Qualität unseres Output besser ist, da Entscheidungen direkt diskutiert und aus verschiedenen Perspektiven betrachtet werden. Wir sind Komplementär. Unsere Stärken ergänzen sich und ergeben ein vollständiges Bild.
+        </p>
       <h3>Lassen Sie uns gemeinsam den Arbeitsalltag unserer Porsche Kollegen vereinfachen. Wir freuen uns auf ein persönliches Gespräch.</h3>
       <img src="sign.png">
       <p class="m-top">
@@ -259,10 +254,6 @@ data-aos-anchor-placement="top-bottom">
 
 
   </div>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
    <script>var porscheDesignSystem; !function () { "use strict"; var e = { d: function (t, n) { for (var o in n) e.o(n, o) && !e.o(t, o) && Object.defineProperty(t, o, { enumerable: !0, get: n[o] }) }, o: function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, r: function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) } }, t = {}; function n(e) { if ("noModule" in HTMLScriptElement.prototype) { const t = ("script", document.createElement("script")); t.src = e, t.setAttribute("crossorigin", ""), document.body.appendChild(t) } } e.r(t), e.d(t, { load: function () { return s } }); const o = "porscheDesignSystem"; const s = (e = { prefix: "" }) => { !function ({ script: e, version: t, prefix: s }) { var r; const i = null !== (r = function (e) { const t = (document[o] || (document[o] = {}), document[o]), { [e]: n = null } = t; if (null === n) { const n = { isLoaded: !1, prefixes: [], registerCustomElements: null }; t[e] = n } return t[e] }(t)) && void 0 !== r ? r : {}, { isLoaded: c, prefixes: u, registerCustomElements: d } = i; c || (n(e), i.isLoaded = !0), u.includes(s) || (u.push(s), d && d(s)) }(Object.assign(Object.assign({}, { version: "2.9.0-beta.0", script: (typeof window !== 'undefined' && window.PORSCHE_DESIGN_SYSTEM_CDN === 'cn' ? 'https://cdn.ui.porsche.cn' : 'https://cdn.ui.porsche.com') + "/porsche-design-system/components/porsche-design-system.v2.9.0-beta.0.cd40510187bd0cb652bb.js" }), e)) }; porscheDesignSystem = t }(); porscheDesignSystem.load()</script>
    <script>!function () { if (["IntersectionObserver", "MutationObserver", "customElements"].some((function (e) { return !(e in window) }))) { var e = document.createElement("script"); e.src = "https://cdn.ui.porsche.com/browser-notification/overlay.min.4.1.1.js", document.body.appendChild(e) } }();</script>
   
